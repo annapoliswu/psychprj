@@ -1,0 +1,112 @@
+#hindbrain{
+	position: relative;
+	left:430px;
+	height: 350px;
+	width: auto;
+}
+
+#logo{
+	height: 60px;
+	width: auto;
+	position: relative;
+	top:20px;
+}
+
+a{
+	color:#ff7777;
+}
+
+#back{
+	margin-left: 30px;
+	width:220px;
+}
+
+
+#back:hover{
+	opacity: .8;
+}
+
+
+.page{
+	background-color: #000000;
+	width: 1200px;
+	height: 3000px;
+
+	position: absolute;
+	left:50%;
+	margin-left: -600px;
+	margin-top: -10px;
+
+}
+
+h1{
+	color: black;
+
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 14pt;
+	}
+
+
+p{
+	color: black;
+
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	font-size: 14pt;
+	transition: all .3s;
+
+}
+
+
+/*end all*/
+
+#explain{
+	height: 440px;
+	width: 300px;
+
+	background-color: #ef7979;
+	position: absolute;
+	left:460px;
+	top:110px;
+
+	border-radius: 5px;
+}
+
+
+
+.lobes{
+	position: absolute;
+	left:75px;
+	top:130px;
+}
+
+.cortexes{
+	position: absolute;
+	left:775px;
+	top:140px;
+}
+
+#label1{
+	position: absolute;
+	top:410px;
+	left:220px;
+}
+
+#label2{
+	position: absolute;
+	top:410px;
+	left: 890px;
+}
+
+
+
+
+p{
+	text-align: center;
+}

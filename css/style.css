@@ -1,0 +1,103 @@
+/*CSS for homepage*/
+
+.page{
+	background-color: #000000;
+	width: 1200px;
+	height: 3000px;
+
+	position: absolute;
+	left:50%;
+	margin-left: -600px;
+	margin-top: -10px;
+
+}
+
+h1{
+	color: #ffffff;
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 28pt;
+	margin-top: 50px;
+	}
+
+
+p{
+	color: #ffffff;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	color: #ffffff;
+	text-align: center;
+	font-family: Georgia, serif;
+	
+	text-decoration: none;
+	display: block;
+	font-size: 14pt;
+	transition: all .3s;
+
+}
+
+a:hover{
+	color: #ff7777;
+}
+
+
+
+
+
+
+#l1{ position: absolute;
+	left:120px;
+	top:300px;
+}
+
+#l2{ position: absolute;
+	left:120px;
+	top: 400px;
+}
+
+#l3{ position: absolute;
+	right: 120px;
+	top:300px;
+}
+
+#l4{ position: absolute;
+	right: 120px;
+	top: 400px;
+}
+
+
+
+#logo
+{
+	height: 500px;
+	width: auto;
+	position: relative;
+	left: 360px;
+	top:100px;
+	border-radius: 50% 50%;
+	/*glowy part*/
+    -webkit-animation: glow 3.2s ease-in-out infinite;
+    -moz-animation: glow 3.2s ease-in-out infinite;
+    animation: glow 3.2s ease-in-out infinite;
+	
+	/*flip part*/
+	transition-duration: 1.5s;
+    transition-property: transform;
+    transition-timing-function:ease-in-out;
+}
+
+@keyframes glow 
+	{
+	  20% { box-shadow: 0 0 100px #ff2200; }
+	}
+
+#logo:hover{
+	transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+     transition-duration: 1s;
+}
+

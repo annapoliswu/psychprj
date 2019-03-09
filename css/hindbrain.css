@@ -1,0 +1,225 @@
+/*css for hindbrain*/
+
+#container{
+	position:relative;
+	top:-70px;
+
+}
+
+#container2{
+	position: absolute;
+	top:630px;
+}
+
+#hindbrain{
+	position: relative;
+	left:430px;
+	height: 350px;
+	width: auto;
+}
+
+#logo{
+	height: 60px;
+	width: auto;
+	position: relative;
+	top:20px;
+}
+
+a{
+	color:#ff7777;
+}
+
+#back{
+	margin-left: 30px;
+	width:220px;
+}
+
+
+#back:hover{
+	opacity: .8;
+}
+
+
+.page{
+	background-color: #000000;
+	width: 1200px;
+	height: 3000px;
+
+	position: absolute;
+	left:50%;
+	margin-left: -600px;
+	margin-top: -10px;
+
+}
+
+h1{
+	color: black;
+
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 14pt;
+	}
+
+
+p{
+	color: black;
+
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	font-size: 14pt;
+	transition: all .3s;
+
+}
+
+
+/*end all*/
+
+
+
+
+
+
+#intro{
+	color: #333333;
+	position: absolute;
+	left:220px;
+	top:130px;
+
+	-webkit-animation: glow 3.2s ease-in-out infinite;
+	-moz-animation: glow 3.2s ease-in-out infinite;
+	animation: glow 3.2s ease-in-out infinite;
+					
+
+}
+
+@keyframes glow {
+	30% {color: white;}
+}
+
+
+
+#brainstempicture{
+	height:500px;
+	width: auto;
+
+	position: absolute;
+	left:350px;
+	margin: 100px;
+}
+
+.box{
+	height: 12px;
+	width: 350px;
+	border-radius: 2px;
+	overflow: hidden;
+	margin: 5px;
+
+	transition: all .7s ease-in-out;
+}
+
+.hovertext{
+	 opacity:0;
+ 	 transition: all 1s ease-in-out;
+}
+
+.box:hover{
+	height: auto;
+	border-radius: 10px;
+	padding: 10px;
+
+	
+}
+
+.box:hover .hovertext{
+	opacity:1;
+}
+
+#thalbox{
+	background-color: #d5efa5;
+
+	position: absolute;
+	left: 750px;
+	top:120px;
+	z-index: 3;
+}
+
+#midbox{
+	background-color: #edb7ee;
+
+	position: absolute;
+	left: 120px;
+	top:250px;
+	z-index: 3;
+}
+
+#ponsbox{
+	background-color: #92bde5;
+
+	position: absolute;
+	left: 120px;
+	top:330px;
+	z-index: 2;
+}
+
+#medullabox{
+	background-color: #777777;
+
+	position: absolute;
+	left: 120px;
+	top:410px;
+	z-index: 1;
+}
+
+#spinebox{
+	background-color: #dddddd;
+
+	position: absolute;
+	left: 750px;
+	top: 510px;
+}
+
+.verticalbox{
+	height: 180px;
+	width: 12px;
+	border-radius: 2px;
+	overflow: hidden;
+
+	transition: all .7s ease-in-out;
+}
+.verticalbox:hover{
+	width:300px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.verticalbox:hover .hovertext{
+	opacity:1;
+	transition: all .7s ease-in-out;
+}
+
+#stembox{
+	background-color: white;
+
+	position: absolute;
+	left: 750px;
+	top: 230px;
+}
+
+#cerebox{
+	background-color: #65abd3;
+	position: relative;
+	left:750px;
+	top: -100px;
+}
+
+#retbox{
+	background-color: pink;
+	position: absolute;
+	left:290px;
+	top: 230px;
+}
